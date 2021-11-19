@@ -4,7 +4,6 @@ date: 2021-11-19 16:11:45
 tags: "CShharp"
 categories: "CSharp"
 top: true
-cover: true
 summary: "每次在ViewModel转换成Entity类型或者Entity转到ViewModel的时候都要手动创建Mapper，所以有一个想法，在asp.net core中使用AutoMapper自动创建Mapper。"
 ---
 

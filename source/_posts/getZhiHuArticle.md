@@ -4,7 +4,6 @@ date: 2021-11-19 16:30:21
 tags: "CShharp"
 categories: "CSharp"
 top: true
-cover: true
 summary: "C#实现知乎问题答案收集"
 ---
 知乎答案收集，首先使用`RestSharp`组件访问，从Nuget获取

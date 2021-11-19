@@ -390,8 +390,8 @@ header .side-nav .social-link {
     border: 1px solid #f44336;
     background-color: #f44336;
     box-shadow: 0 14px 26px -12px rgba(233, 30, 99, 0.42),
-    0 4px 23px 0 rgba(0, 0, 0, 0.12),
-    0 8px 10px -5px rgba(233, 30, 99, 0.2);
+        0 4px 23px 0 rgba(0, 0, 0, 0.12),
+        0 8px 10px -5px rgba(233, 30, 99, 0.2);
 }
 
 .cover-btns a i {
@@ -1021,8 +1021,8 @@ article .article-tags .chip {
 
 #artDetail .card {
     box-shadow: 0 10px 35px 2px rgba(0, 0, 0, .15),
-    0 5px 15px rgba(0, 0, 0, .07),
-    0 2px 5px -5px rgba(0, 0, 0, .1) !important;
+        0 5px 15px rgba(0, 0, 0, .07),
+        0 2px 5px -5px rgba(0, 0, 0, .1) !important;
 }
 
 #artDetail .tag-cate {
@@ -1865,7 +1865,7 @@ footer .copy-right {
     margin: -15px 0 10px 10px;
 }
 
-p.search-result-summary{
+p.search-result-summary {
     margin: 15px 0 0 -8px;
 }
 
@@ -2029,8 +2029,7 @@ p.search-result-summary{
 
 /*二级菜单*/
 
-.nav-menu {
-}
+.nav-menu {}
 
 .nav-menu li .sub-nav {
     position: absolute;
@@ -2126,13 +2125,13 @@ p.search-result-summary{
 }
 
 .m-nav-show,
-.m-nav-item > a:hover {
+.m-nav-item>a:hover {
     color: #FFF;
     background: rgba(255, 255, 255, .8);
 }
 
-.m-nav-show > a:before,
-.m-nav-item > a:hover:before {
+.m-nav-show>a:before,
+.m-nav-item>a:hover:before {
     opacity: 1;
 }
 
@@ -2142,4 +2141,211 @@ p.search-result-summary{
     height: 50px;
     padding: 0;
     margin: 0;
+}
+
+@media (prefers-color-scheme: dark) {
+    .bg-color {
+        background-image: linear-gradient(to right, #1f251e 0%, #1e1f1e 100%);
+    }
+    header .side-nav .menu-list a {
+        color: #71a0d1 !important;
+    }
+    #sma {
+        box-shadow: #aaa 2px 5px 10px;
+        background: #000;
+        width: 38px;
+        height: 38px;
+        display: block;
+        position: fixed;
+        border-radius: 50%;
+        right: 15px;
+        bottom: 100px;
+        padding-top: 15px;
+        margin-bottom: 0;
+        z-index: 998;
+        cursor: pointer;
+    }
+
+    #sma .fa-moon-o {
+        position: absolute;
+        right: 8px;
+        bottom: 8px;
+        font-size: 1.48rem !important;
+    }
+
+    #sma .fa-lightbulb {
+        position: absolute;
+        right: 11px;
+        bottom: 8px;
+        font-size: 1.5rem !important;
+    }
+
+    .fa-moon-o:before {
+        content: "\f186";
+    }
+
+    .fa-comments:before {
+        content: "\f086";
+    }
+
+    /*------------------*/
+    tbody,
+    body #artDetail .post-info .post-date,
+    body #info_user_pool .moments_chart,
+    body .bg-cover .post-title,
+    body .biaotis span,
+    body .card .card-content p,
+    body .card .card-image .card-title,
+    body .card .toc-title,
+    body .card-content .categories-title,
+    body .card-content .de,
+    body .category-content a,
+    body .chip-container .tag-title,
+    body .fa-lightbulb:before,
+    body .fa-moon-o:before,
+    body .fab,
+    body .fas,
+    body .friends-container .tag-title,
+    body .frind-ship .title h1,
+    body .moments-item-info .moments-item-time,
+    body .moments_load_button,
+    body .notice,
+    body .panel-info,
+    body .post-info .info-break-policy,
+    body .publish-info .post-category,
+    body .publish-info .publish-date,
+    body .row .text,
+    body .statis .name,
+    body .supervise_details,
+    body .title,
+    body .v[data-class="v"] .vcount,
+    body .v[data-class="v"] .vcount .vnum,
+    body .valine-card .comment_headling,
+    body a body table,
+    body article .article-content .summary,
+    body article .article-tags .chip,
+    body div.jqcloud a,
+    body footer .copy-right,
+    body footer a,
+    body h1,
+    body h2,
+    body h3,
+    body h4,
+    body h5,
+    body h6,
+    body header .side-nav .menu-list a,
+    body header .side-nav .mobile-head .logo-desc,
+    body header .side-nav .mobile-head .logo-name,
+    body li,
+    body p,
+    body pre code {
+        color: rgba(255, 255, 255, 0.85);
+        /*.85为透明度，可依据需求修改*/
+    }
+
+    /* 背景颜色变黑色 */
+    body,
+    body #rewardModal .modal-content,
+    body .archive-container,
+    body .modal,
+    body .v[data-class="v"] .vcount,
+    body header .side-nav,
+    body header .side-nav .menu-list .m-nav-show {
+        background-color: #12121c;
+    }
+
+    /*首页文章滑动卡片文字*/
+    body #thisTime,
+    body .card-image-V .box-content .title {
+        color: #8a2be2;
+    }
+
+    /*音乐播放器*/
+    body .aplayer {
+        background: #2f3742 !important;
+    }
+
+    /*图片滤镜*/
+    body img,
+    body strong {
+        filter: brightness(0.7);
+    }
+
+    /*统计图表暗色样式*/
+    body #categories-chart,
+    body #category-radar,
+    body #post-calendar,
+    body #posts-chart,
+    body #tags-chart {
+        filter: invert(1);
+    }
+
+    /*toc目录滤镜*/
+    body .skillbar .skill-bar-percent {
+        color: #000;
+    }
+
+    /*加载动画（吃豆豆）文字颜色*/
+    body .loading-text {
+        color: #000;
+    }
+
+    /*一些细节背景*/
+    body .block-with-text:after,
+    body .card,
+    body .collapsible-header,
+    body .wxgzh,
+    body table tr:nth-child(2n),
+    body thead {
+        background-color: #282c34;
+    }
+
+    /*about页面细节*/
+    body .profile .author .title {
+        color: #faebd7;
+    }
+
+    body .my-projects .info .info-title a {
+        color: tomato;
+    }
+
+    /*外挂标签*/
+    .swbk .label {
+        color: currentColor;
+    }
+
+    /*其他技能*/
+    .other-skills .sub-title {
+        color: #fff
+    }
+
+    :not(pre) > code {
+        background-color: rgba(110, 118, 129, 0.4);
+        color: #c9d1d9;
+    }
+}
+
+::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.1);
+    background-color: #F5F5F5;
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+    background-color: #F5F5F5;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #FFF;
+    background-image: -webkit-linear-gradient(top,
+            #4fc5f8 0%,
+            #45abd6 50%,
+            #46a4cc 51%,
+            #3e98be 100%);
+}
+html, body * {scrollbar-color: #3e98be transparent;scrollbar-width: thin;}
+::selection {
+    color: #1b1435;
+    background: #3fb197;
 }
