@@ -16,8 +16,9 @@
 		<% } %>
     </div>
 </div>
-
+<script src="https://cdn.jsdelivr.net/npm/hls.js@latest"></script>
 <script src="<%- theme.jsDelivr.url %><%- url_for(theme.libs.js.dplayer) %>"></script>
+
 <script>
     $(function () {
         new DPlayer({
@@ -28,9 +29,18 @@
             lang: '<%- config.language %>' === 'zh-CN' ? 'zh-cn' : 'en',
             preload: '<%- theme.video.preload %>',
             volume: Number('<%- theme.video.volume %>'),
+            danmaku: {
+                api:"<% if (theme.video.danmukuApi) { %><%- url_for(theme.video.danmukuApi) %><% } %>",
+                id:"<% if (theme.video.danmukuId) { %><%- theme.video.danmukuId %><% } %>",
+                maximum:2000,
+                token: "Anonymous",
+                user: "Anonymous",
+                bottom: "15%"                        
+            },
             video: {
                 url: '<% if (theme.video.url) { %><%- url_for(theme.video.url) %><% } %>',
                 pic: '<% if (theme.video.pic) { %><%- url_for(theme.video.pic) %><% } %>',
+                type:'hls',
                 thumbnails: '<% if (theme.video.thumbnails) { %><%- url_for(theme.video.thumbnails) %><% } %>'
             }
         });

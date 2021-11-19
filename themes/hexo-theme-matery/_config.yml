@@ -100,10 +100,10 @@ music:
 # Whether to display the videos.
 # 是否在首页显示视频.
 video:
-  enable: false
+  enable: true
   showTitle: true
-  title: 精彩视频
-  url: # url和iframeUrl其中一个必填
+  title: 城市中的人们
+  url: https://api.dpangzi.com/api/Video/E993AE37A9BBD26436AB1C1C5045287F/ # url和iframeUrl其中一个必填
   iframeUrl: #在bilibili或者爱奇艺分享时选择iframe，然后填那个url来这里，sample: //player.bilibili.com/player.html?aid=669520137&bvid=BV1oa4y1L7mw&cid=234543483&page=1
   pic:
   thumbnails:
@@ -112,7 +112,9 @@ video:
   theme: '#42b983'
   loop: false # 是否循环播放
   preload: 'auto' # 预加载，可选值: 'none', 'metadata', 'auto'
-  volume: 0.7
+  volume: 1
+  danmukuApi: https://api.dpangzi.com/api/Video/danmaku/
+  danmukuId : E993AE37A9BBD26436AB1C1C5045287F
 
 # Whether to display the title of the recommended posts
 # 是否显示推荐文章的标题
