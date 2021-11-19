@@ -2319,6 +2319,11 @@ p.search-result-summary {
         color: #fff
     }
 
+    /*修复移动设备搜索框黑色字体的问题*/
+    #searchInput{
+        color:#fff
+    }
+
     :not(pre) > code {
         background-color: rgba(110, 118, 129, 0.4);
         color: #c9d1d9;

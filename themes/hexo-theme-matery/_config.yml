@@ -124,8 +124,8 @@ recommend:
 
 # Configure website favicon and LOGO
 # 配置网站favicon和网站LOGO
-favicon: /favicon.png
-logo: /favicon.png
+favicon: https://cdn.jsdelivr.net/gh/pengqian089/hexo/themes/hexo-theme-matery/source/favicon.png
+logo: https://cdn.jsdelivr.net/gh/pengqian089/hexo/themes/hexo-theme-matery/source/favicon.png
 
 # The configuration of the second button in the home banner,
 # including the display name of the button, the font awesome icon, and the hyperlink to the button.
@@ -234,7 +234,7 @@ snowdown:
 # profile in about page, including avatars, career, and personal introductions.
 # 在”关于”页面中配置个人信息，包括头像、职业和个人介绍.
 profile:
-  avatar: https://core.dpangzi.com/Home/Image/603b39191c0d5e3312f691c5?width=100&height=100
+  avatar: https://cdn.jsdelivr.net/gh/pengqian089/hexo/themes/hexo-theme-matery/source/favicon.png
   career: "Professional asp.net developer."
   introduction: "社恐本恐，没必要别跟我主动说话，我主要是怕你尴尬"
 
