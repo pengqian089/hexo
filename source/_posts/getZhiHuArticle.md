@@ -33,7 +33,7 @@ Install-Package AngleSharp -Version 1.0.0-alpha-844
 Install-Package Newtonsoft.Json -Version 13.0.1
 ```
 将获取到的整页Html解析
-![](/Home/Image/612ca8426334bcb72527a0e7)
+![](https://core.dpangzi.com/Home/Image/612ca8426334bcb72527a0e7)
 这里保存着一些基本数据，将会解析
 ``` csharp
 // 使用默认的配置和js解析
@@ -66,7 +66,7 @@ if(data != null)
 ```
 ### 遍历所有答案
 从浏览器的开发者工具中得到分页的API
-![](/Home/Image/612cac1a6334bcb72527a171)
+![](https://core.dpangzi.com/Home/Image/612cac1a6334bcb72527a171)
 从中可以得知API为 `https://www.zhihu.com/api/v4/questions/{问题ID}/answers`
 
 其中有5个参数，抛开`include`参数外,其余参数分别为：
