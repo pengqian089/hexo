@@ -2143,6 +2143,7 @@ p.search-result-summary {
     margin: 0;
 }
 
+/*noinspection ALL*/
 @media (prefers-color-scheme: dark) {
     .bg-color {
         background-image: linear-gradient(to right, #1f251e 0%, #1e1f1e 100%);
@@ -2327,6 +2328,36 @@ p.search-result-summary {
     :not(pre) > code {
         background-color: rgba(110, 118, 129, 0.4);
         color: #c9d1d9;
+    }
+
+    .aplayer-list ol>li.aplayer-list-light{
+        background: #70b187 !important;
+    }
+    .aplayer-list ol>li .aplayer-list-index,.aplayer-list ol>li .aplayer-list-author{
+        color: rgba(255, 255, 255, 0.85) !important;
+    }
+    .aplayer-list ol>li:hover{
+        background-color: #4e775c !important;
+    }
+    .aplayer-info{
+        background-color: #2f3742 !important;
+    }
+    .aplayer-miniswitcher .aplayer-icon{
+        background-color: #2f3742 !important;
+    }
+    .aplayer .aplayer-info .aplayer-music .aplayer-author,.aplayer .aplayer-info .aplayer-music .aplayer-title{
+        color: #e1dddd !important;
+    }
+    .aplayer-icon path{
+        fill:#fff !important;
+    }
+    .aplayer-icon:hover path{
+        fill:#b5acac !important;
+    }
+
+    ::-webkit-scrollbar-track {
+        background-color: #2f3742 !important;
+        border-radius: 0 !important;
     }
 }
 

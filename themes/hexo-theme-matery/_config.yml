@@ -95,7 +95,7 @@ music:
   preload: 'auto'   # 预加载，可选值: 'none', 'metadata', 'auto'
   volume: 0.7       # 默认音量，请注意播放器会记忆用户设置，用户手动设置音量后默认音量即失效
   listFolded: true  # 列表默认折叠
-  hideLrc: true     # 隐藏歌词
+  hideLrc: false     # 隐藏歌词
 
 # Whether to display the videos.
 # 是否在首页显示视频.
@@ -103,7 +103,7 @@ video:
   enable: true
   showTitle: true
   title: 城市中的人们
-  url: https://api.dpangzi.com/api/Video/E993AE37A9BBD26436AB1C1C5045287F/ # url和iframeUrl其中一个必填
+  url: https://cdn.jsdelivr.net/gh/pengqian089/SiteSource@latest/Videos/People-in-the-City/1080p.m3u8 # url和iframeUrl其中一个必填
   iframeUrl: #在bilibili或者爱奇艺分享时选择iframe，然后填那个url来这里，sample: //player.bilibili.com/player.html?aid=669520137&bvid=BV1oa4y1L7mw&cid=234543483&page=1
   pic:
   thumbnails:
