@@ -114,7 +114,7 @@ video:
   preload: 'auto' # 预加载，可选值: 'none', 'metadata', 'auto'
   volume: 1
   danmukuApi: https://api.dpangzi.com/api/Video/danmaku/
-  danmukuId : E993AE37A9BBD26436AB1C1C5045287F
+  danmukuId : "2534eed7f61d6db6c616d264dfd03babe417ce85"
 
 # Whether to display the title of the recommended posts
 # 是否显示推荐文章的标题
