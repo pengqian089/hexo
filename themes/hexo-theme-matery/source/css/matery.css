@@ -301,7 +301,10 @@ header .brand-logo .logo-span {
 
 /*修改顶部 logo 的文字垂直对齐为 top，避免默认 middle 看起来偏下*/
 header .brand-logo .waves-effect {
-    vertical-align: top;
+    vertical-align: top;    
+}
+
+nav .brand-logo{
     white-space: nowrap;
     text-overflow: ellipsis;
     overflow: hidden;
